@@ -36,28 +36,13 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Create or edit the config file of nginx
    ```sh
-   dirname="iwishcobot"
+   dirname="botName"
    nano /etc/nginx/conf.d/ip.conf
    sudo systemctl restart nginx
    ```
-   the file should be as follows:
+   2. Clone the repo
    ```sh
-   server {
-      listen 80;
-      server_name music.iwishmenu.ir;
-      root /var/www/iwishmenu/music/public_html;
-
-      index index.php  index.htm index.html;
-
-      location / {
-        try_files $uri $uri/ =404;
-      }
-
-   }
-   ```
-2. Clone the repo
-   ```sh
-   git clone https://github.com/iwishco/iwishco_bot.git /var/www/$dirname
+   git clone https://github.com/YASINRA/iwish-bot.git /var/www/$dirname
    ```
 3. Install NPM packages
    ```sh
@@ -75,13 +60,13 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 5. Build the project
    ```sh
-   botName="iwishco_bot"
-   git clone https://github.com/iwishco/iwishco_bot.git /var/www/ip/public_html/$botName
+   botName="YourBotName"
+   git clone https://github.com/YASINRA/iwish-bot.git /var/www/ip/public_html/$botName
    cd /var/www/ip/public_html/$botName
    composer update
    cp config.example.php config.php
    nano config.php
-   crontab -e   --> * * * * * php /var/www/ip/public_html/iwishco_bot/getUpdatesCLI.php
+   crontab -e   --> * * * * * php /var/www/ip/public_html/iwish-bot/getUpdatesCLI.php
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
