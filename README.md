@@ -44,9 +44,9 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    git clone https://github.com/YASINRA/iwish-bot.git /var/www/$dirname
    ```
-3. Install NPM packages
+3. Install NGINX packages
    ```sh
-   npm install
+   nginx install
    ```
 4. Set the environment variables. Enter your API in `config.js`
    ```sh
