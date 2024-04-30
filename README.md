@@ -40,15 +40,11 @@ _Below is an example of how you can instruct your audience on installing and set
    nano /etc/nginx/conf.d/ip.conf
    sudo systemctl restart nginx
    ```
-   2. Clone the repo
+2. Clone the repo
    ```sh
    git clone https://github.com/YASINRA/iwish-bot.git /var/www/$dirname
    ```
-3. Install NGINX packages
-   ```sh
-   nginx install
-   ```
-4. Set the environment variables. Enter your API in `config.js`
+3. Set the environment variables. Enter your API in `config.js`
    ```sh
    cd /var/www/$dirname
    cp config.env.example config.env
@@ -58,7 +54,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
-5. Build the project
+4. Build the project
    ```sh
    botName="YourBotName"
    git clone https://github.com/YASINRA/iwish-bot.git /var/www/ip/public_html/$botName
@@ -68,5 +64,3 @@ _Below is an example of how you can instruct your audience on installing and set
    nano config.php
    crontab -e   --> * * * * * php /var/www/ip/public_html/iwish-bot/getUpdatesCLI.php
    ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
