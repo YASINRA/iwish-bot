@@ -1,0 +1,38 @@
+{
+    "name": "telegram-bot/iwishco-bot",
+    "type": "project",
+    "description": "PHP Telegram Bot For Iwish",
+    "keywords": ["telegram", "bot", "example"],
+    "license": "MIT",
+    "homepage": "https://github.com/iwishco/iwishco_bot",
+    "support": {
+        "issues": "https://github.com/php-telegram-bot/example-bot/issues",
+        "source": "https://github.com/php-telegram-bot/example-bot"
+    },
+    "authors": [
+        {
+            "name": "PHP Telegram Bot Team",
+            "homepage": "https://github.com/php-telegram-bot/example-bot/graphs/contributors",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Controller\\": "Controller/"
+        }
+    },
+    "require": {
+        "longman/telegram-bot": "*",
+        "ext-pdo": "*",
+        "ext-mongodb": "*"
+    },
+    "require-dev": {
+        "php-parallel-lint/php-parallel-lint": "^1.2",
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "scripts": {
+        "check-code": [
+            "\"vendor/bin/phpcs\""
+        ]
+    }
+}
