@@ -1,22 +1,4 @@
 # iWishco Bot
-"iWish Music": A cutting-edge streaming app built with React. Enjoy your favorite tunes with seamless streaming and a sleek user interface. cloned from this repo : `https://github.com/php-telegram-bot/example-bot.git`
-
-<a name="readme-top"></a>
-
-```
-http://103.75.199.165/hiddenDB
-```
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
-
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
